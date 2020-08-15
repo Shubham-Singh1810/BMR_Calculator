@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../bg.jpg");
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+}
+html{
+    font-size: 62.5%;
+}
+/* navigation start */
+.navigation{
+    display: flex;
+    margin: .3rem 20rem;
+    justify-content: space-between;
+}
+.brandname{
+    font-size: 3rem;
+    color: white;
+    margin-top:.3rem ;
+}
+.navcenter{
+    font-size: 2.5rem;
+    margin: .3rem;
+}
+.navright{
+    font-size: 2rem;
+}
+.socialicon{
+    margin: 2px 3px;
+}
+/* navigation end */
+
+/* home start */
+.container{
+    margin: 1rem 20rem;
+    
+}
+.greating{
+    font-size: 3rem;
+    text-align: center;
+    border-bottom: solid 2px white;
+}
+.section{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.bmrcalculator{
+    display:block ;
+    width: 30%;
+    padding:1rem ;
+    border: 1px solid gray;
+    margin: 3rem 2rem ;
+}
+.bmrheading{
+    font-size: 3rem;
+}
+.inputbmr{
+    font-size: 2rem;
+    text-align: center;
+}
+#height, #weight, #age ,#h{
+    background-color: transparent;
+    width: 70%;
+    outline: none;
+    border:none ;
+    text-align: center;
+    font-size:2rem ;
+    border-bottom: 1px solid tomato;
+}
+.calculate{
+    width: 50%;
+    border: solid green 2px;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.calculate:hover{
+    background-color: white;
+}
+.heightconverter{
+    display:block ;
+    width: 90%;
+    margin:2rem  ;
+    background-color: rgba(231, 231, 230, 0.877);
+    padding: .5rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+}
+.heightconverterheading{
+    font-size: 3rem;
+}
+.inputheight{
+    font-size: 2rem;
+}
+#height:hover{
+    width: 100%;
+    transition: all ease-in .5s;
+    border-bottom: 2px solid black;
+}
+#age:hover{
+    width: 100%;
+    transition: all ease-in .5s;
+    border-bottom: 2px solid black;
+}
+#weight:hover{
+    width: 100%;
+    transition: all ease-in .5s;
+    border-bottom: 2px solid black;
+}
+#h:hover{
+    width: 100%;
+    transition: all ease-in .5s;
+    border-bottom: 2px solid black;
+}
+.heightbtn{
+    width: 50%;
+    font-size: 2rem;
+    margin:.2rem;
+    border-radius:10px;
+}
+.heightbtn:hover{
+    width: 70%;
+    transition: all ease-in .5s;
+    border-bottom: 2px solid black;
+    background-color: grey;
+}
+.calariescounter{
+    display:block ;
+    width: 90%;
+    margin:2rem  ;
+    background-color: rgba(231, 231, 230, 0.877);
+    padding: .5rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+
+.evalute{
+    width: 50%;
+    font-size: 2rem;
+    margin:.2rem;
+    border-radius:10px;
+}
+.evalute:hover{
+    background-color: green;
+}
+#bmr{
+    background-color: transparent;
+    width: 70%;
+    outline: none;
+    border:none ;
+    text-align: center;
+    font-size:2rem ;
+    border-bottom:solid black 2px ;
+}
+.developersid2{
+    display: none;
+    font-size: 2rem;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: block;
+}
+/* socialmediaicon start */
+.fa-facebook{
+    color:blue;
+}
+.fa-instagram{
+    color: orangered;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-github{
+    color: white;
+   
+}
+/* socialmediaicon end */
+/* home end */

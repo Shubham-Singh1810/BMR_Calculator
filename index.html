@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMR_CALCULATOR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- NAVIGATION START -->
+    <nav class="navigation">
+        <div class="brandname">White_Shark</div>
+        <div class="navcenter">BMR_CALCULATOR</div>
+        <div class="navright">
+            Developer's_id
+            <div class="socialicon">
+                <a href="https://www.facebook.com/profile.php?id=100016748835401" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/shubhamsingh6569/?hl=en" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=7762042085/" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/Shubham-Singh1810" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <!-- NAVIGATION END -->
+
+    <!-- home start -->
+    <div class="container">
+        <div class="greating">Welcome to White_Shark BMR Calculator...</div>
+        <div class="section">
+            <div class="bmrcalculator">
+                <h1 class="bmrheading">Calculate your BMR</h1>
+                <hr>
+                <div class="inputbmr">
+                    Height: <br>
+                    <input type="number" placeholder=" in cm" id="height"><br>
+                    Weight: <br>
+                    <input type="number" placeholder="in kg" id="weight"><br>
+                    Age: <br>
+                    <input type="number" placeholder="Between 15-80" id="age"><br>
+                    <div class="gender">Gender
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div><br>
+                    <div id="bmrmessage"></div>
+                    <button class="calculate" onclick="BMR()">Calculate BMR</button>
+                </div>
+            </div>
+
+            <div class="section2">
+                <div class="heightconverter">
+                    <h1 class="heightconverterheading">Height_Convertor</h1>
+                    <div class="inputheight">
+                        Feet to cm: <br>
+                        <input type="number" id="h" placeholder="height in feet">
+                        <div id="heightmessage"></div>
+                        <button class="heightbtn" onclick="convertheight()">Calculate</button>
+                    </div>
+                </div>
+                <div class="section3">
+                    <div class="calariescounter">
+                        <h1 class="calariescounterheading">Energy Expenditure </h1>
+                        <p>Get more specifed about your daily Energy Expenditure by adding your Lifestyle and BMR</p>
+                        <input type="number" placeholder="Enter your_BMR" id="bmr"><br>
+                        <div class="gender">Lifestyle <br>
+                            <input type="radio" id="light" name="activity" value="male">
+                            <label for="male">Sedentary or light activity </label><br>
+                            <input type="radio" id="moderate" name="activity" value="female">
+                            <label for="female">Active or moderately active</label><br>
+                            <input type="radio" id="highlyactive" name="activity" value="female">
+                            <label for="female">Vigorously active</label>
+                        </div><br>
+                        <div id="calariemessage"></div>
+                        <button class="evalute" onclick="convertcalaries()">EVALUTE</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright @2020 ShubhamSingh</p>
+        <div class="developersid2">
+            Developer's_id
+            <div class="socialicon">
+                <a href="https://www.facebook.com/profile.php?id=100016748835401" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/shubhamsingh6569/?hl=en" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=7762042085/" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/Shubham-Singh1810" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <!-- home end -->
+        <script src="javascript/file.js"></script>
+</body>
+
+</html>
